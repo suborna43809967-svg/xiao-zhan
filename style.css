@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+
+.dark-light {
+  color: #3A3A3A;
+}
+
+.header{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 30px;
+     padding-right: 30px;
+}
+
+.navbar ul{
+     display: flex;
+     align-items: center;
+     gap: 35px;
+     list-style: none;
+    
+}
+.navbar ul li a,
+.navbar ul li i {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* hero section */
+
+.hero-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 15px;
+}
+.hero-box {
+  margin-top: 140px;
+  width: 580px;
+  
+}
+.hero-title{
+       font-size: 3.5rem;
+       font-weight: 700px;
+       margin-bottom: 16px;
+}
+.hero-descrption{
+    font-weight: 600px;
+    margin-bottom: 16px;
+}
+.btn-primary {
+  padding: 10px 25px;
+  background-color: #E02C6D;
+  border: none;
+  border-radius: 40px;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.heros-img  {
+  background-image: url(./images/Circle.svg) ;
+    height: 475px;
+  width: 475px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-top: 80px;
+  
+}
+
+/* sponsor section */
+
+.sponsor-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid rgba(192, 204, 218, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 100px;
+
+}
+.sponsor{
+  max-width: 900px;
+   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* collection section */
+
+.collection-container{
+   max-width: 1100px;
+  margin: 0 auto;
+
+}
+.collection-title{
+   text-align: center;
+   margin-bottom: 30px;
+}
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+   width: 330px;
+  height: 475px;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.card img {
+   display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 300px;
+}
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 18px;
+  margin-bottom: 7px;
+}
+.price {
+  font-size: 1.5rem;
+  margin-left: 18px;
+  margin-bottom: 7px
+}
+.icons {
+  color: #FB8200;
+  margin-left: 18px;
+}
+.rating{
+  color: black;
+}
+.card-description{
+  margin-left: 18px ;
+  margin-bottom: 7px;
+  font-weight: 600;
+  width: 196px;
+  margin-top: 7px ;
+}
+.btn-secondary {
+  padding: 10px 20px;
+  background-color: #E02C6D;
+  border: none;
+  border-radius: 40px;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.see-more-section {
+  text-align: end;
+  margin: 20px;
+}
+
+/* products */
+.product-at-place{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 63px;
+}
+.product-title-text {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.products-description {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #424242;
+  width: 550px;
+}
+
+.products-title .btn-primary {
+  border-radius: 0;
+}
+
+/* footer */
+
+.footer{
+  background-color: #0A0826;
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+  text-align: center;
+  padding: 50px 15px;
+}
+.footer-title{
+   font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-description{
+  font-size: 13px;
+   font-weight: 700;
+  color: #D9DBE1;
+  margin-bottom: 20px;
+}
+}
